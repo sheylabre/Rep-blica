@@ -1,3 +1,33 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.cajantc{
+
+border:1px solid black;
+width:100%;
+text-align: center;
+}
+.cajantc h4{
+	color:red;
+}
+.imgnoticias2{
+	background-image: url("../image/img_especiales.jpg");
+	width: 100%;
+	height:  210px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.textntc2 h3{
+	color: white;
+	text-align: left;
+	margin-top: 20px;
+	float: bottom;
+}
+
+ /* css footer */
 footer {
 	background-color: #F1F1F1;
 	color: #000;
@@ -44,4 +74,4 @@ footer {
 	text-align: center;
 }
 
-
+ /* css footer-fin */

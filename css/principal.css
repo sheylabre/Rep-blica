@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*columnistas*/
+.columnista{
+	margin-top: 5%;
+	background: rgb(220,220,220);
+	border-top: 6px solid rgb(128,0,0);
+}
+.colm-1{
+	width: 70%;
+	background: rgb(128,0,0);
+	color: white;
+	margin-top: -10%;
+	margin-left: 15%;
+}
+.bold{
+	font-weight: bold;
+    position: relative;
+    top:-6px;
+}
+@media (min-width: 480px){
+	.thumbnail{
+		margin-left: 25%;
+	}
+}
+@media (min-width: 768px){
+	.colm-1{
+		margin-top: -3%;
+		margin-left: 35%;
+	    width: 30%;
+	}
+	.thumbnail{
+		margin-left: 11%;
+	}
+}
+/*suscribete*/

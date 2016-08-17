@@ -1,0 +1,30 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}.fondo1 p{
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-size: 130%;
+	width: 115%;
+	padding-top:7%;
+	padding-bottom:7%; 
+	border-radius: 3; 
+}
+.fondo2{
+	background-color: #BDBDBD;
+}
+nav li{
+	float: left;
+	padding-right:4%;
+	padding-top:0.5%;
+	padding-bottom:1.5%;  
+	padding-left:1%;  
+}
+nav li:first-child{
+	list-style: none;
+}
+nav a{
+	color:gray; 
+}

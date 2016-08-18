@@ -69,13 +69,10 @@
 .email{
 	position: absolute;
 	top: 5%;
-	left: 40%;
+	left: 38%;
 }
 /*fin-suscribete-yeiny*/
-	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
-}.fondo1 p{
+.fondo1 p{
 	background-color: black;
 	text-align: center;
 	color: white;

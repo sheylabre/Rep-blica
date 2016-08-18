@@ -3,8 +3,8 @@
 <head>
     <title>Republica</title>
     <meta charset="utf-8">
-    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
-   <link href="http://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css">
+   <!-- <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+   <link href="http://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css"> -->
     <link rel="stylesheet" type="text/css" href="css/contac.css">
     <link rel="stylesheet" type="text/css" href="css/dist/slick.css">
     <link rel="stylesheet" type="text/css" href="css/dist/bootstrap-theme.min.css">
@@ -16,14 +16,15 @@
   <div class="container">
     <section class="contactese">
     <h2 class="text-center">Contáctese con nosotros</h2>
-    <p>Llena este formulario se necesita enviarnos alguna información acerca del contenido del sitio web, su funcionalidad, o si tiene alguna propuesta de información o mejora para el sitio. Asi mismo, puede hacer llegar a los redactores su opinión acerca de los contenidos de una determinada sección el cual podrá elegir como destinario.</p>
+    <p class="parr1">Llena este formulario se necesita enviarnos alguna información acerca del contenido del sitio web, su funcionalidad, o si tiene alguna propuesta de información o mejora para el sitio. Asi mismo, puede hacer llegar a los redactores su opinión acerca de los contenidos de una determinada sección el cual podrá elegir como destinario.</p>
+    <div class="container">
     <form action="" class="form1">
         <div class="form-group">
           <label class="sr-only" for="Nombres Completos">Nombres Completos</label>
           <input type="" name="Nombres Completos" class="form-control" placeholder="Nombres Completos">
         </div>
         <div class="form-group">
-          <label class="sr-only" for="Correo electrónico">Nombres Completos</label>
+          <label class="sr-only" for="Correo electrónico">Correo electrónico</label>
           <input type="" name="Correo electrónico" class="form-control" placeholder="Correo electrónico">
         </div>
         <div class="form-group">
@@ -32,42 +33,44 @@
           <p class="">(Opcional)</p>
         </div>
           <h3>Elija un destinatario</h3>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group">
            <div class="radio">
-              <label for="radio1">
+              <label for="radio1" class="col-md-6 col-lg-6">
                 <input type="radio" name="optionsRadios" value="option1" id="radio1">Sugerencia para el sitio web
-                <span class="derecha">(Ej: funcionamiento y mejoras para el sitio)</span>
-              </label>              
+              </label>  
+              <span class="derecha col-md-6 col-lg-6">(Ej: funcionamiento y mejoras para el sitio)</span>            
            </div>
            <div class="radio">
-              <label for="radio2">
+              <label for="radio2" class=" col-md-6 col-lg-6">
                 <input type="radio" name="optionsRadios" value="option2" id="radio2">Dirección periodistica
-                <span class="derecha">(Ej: Sugerencia para la nota de prensa)</span>
               </label>
+              <span class="derecha col-md-6 col-lg-6">(Ej: Sugerencia para la nota de prensa)</span>
             </div>
            <div class="radio">
-              <label for="radio3">
+              <label for="radio3" class=" col-md-6 col-lg-6">
                 <input type="radio" name="optionsRadios" value="option3" id="radio3">Dirección comercial
-                <span class="derecha">(Ej: Publicidad en diarios o sitios web)</span>
               </label>
+              <span class="derecha col-md-6 col-lg-6">(Ej: Publicidad en diarios o sitios web)</span>
             </div>
            <div class="radio">
-              <label for="radio4">
+              <label for="radio4" class="col-md-6 col-lg-6">
                 <input type="radio" name="optionsRadios" value="option4" id="radio4">Cartas al director
-                <span class="derecha">(Ej: denuncias, comentarios e impresiones)</span>
               </label>
+              <span class="derecha col-md-6 col-lg-6">(Ej: denuncias, comentarios e impresiones)</span>
             </div>
            <div class="radio">
-              <label for="radio5">
+              <label for="radio5" class="col-md-6 col-lg-6">
                 <input type="radio" name="optionsRadios" value="option5" id="radio5">Promociones y productos del diario
-                <span class="derecha">(Ej: Promociones, tablet, etc)</span>
               </label>
+              <span class="derecha col-md-6 col-lg-6">(Ej: Promociones, tablet, etc)</span>
             </div>
            <div class="radio">
-              <label for="radio6">
+              <label for="radio6" class="col-md-6 col-lg-6">
                 <input type="radio" name="optionsRadios" value="option6"id="radio6">Archivo periodistico 
-                <span class="derecha">(Ej: Ediciones impresas/fotos)</span>
               </label>
+                <span class="derecha col-md-6 col-lg-6">(Ej: Ediciones impresas/fotos)</span>
             </div>
+        </div>
       <div class="form-group">
       <label class="sr-only" for="mensaje">Mensaje</label>
       <textarea class="form-control" id="mensaje" placeholder="Mensaje"  rows="15"></textarea>
@@ -75,6 +78,9 @@
       <button class="btn-succes">ENVIAR</button>
        </div>
     </form>
+   </div>
+</section>
+</div>
 <!--fin-formulario-yeiny -->
     <script type="js/slick.min.js"></script>
     <script type="js/bootstrap.min.js"></script>

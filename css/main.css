@@ -79,6 +79,10 @@ footer {
 	margin-top: 30px;
 }
 
+.a-color {
+	margin-right: 20px;
+}
+
 .a-color a {
 	color: #333333;
 	display: block;
@@ -90,13 +94,22 @@ footer {
 
 .linea-h {
 	border-top: solid 1px #E1E1E8;
-	margin-top: 3.5%;
+	margin-top: 2.5%;
 	padding-top: 10px;
+	text-align: center;
 }
 
-.linea-h p {
+.linea-h a {
 	color: #767676;
 	font-size: 0.9em;
+}
+
+footer .f-tablet {
+	background-color: #2A2730;
+	color: #FFF;
+	padding: 20px;
+	margin:0;
+	font-family: sans-serif;
 	text-align: center;
 }
 

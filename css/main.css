@@ -6,6 +6,7 @@
 /*columnistas-yeiny*/
 .columnista{
 	margin-top: 5%;
+	margin-bottom: 5%;
 	background: rgb(242,242,242);
 	border-top: 6px solid rgb(170,24,1);
 }
@@ -20,9 +21,6 @@
 	font-weight: bold;
     position: relative;
     top:-6px;
-}
-.h6{
-	font-size: .8em;
 }
 
 @media (min-width: 450px){
@@ -41,9 +39,11 @@
 	}
 	.columnista .col-lg-3{
 		margin-right: -20px;
-		margin-left: 5px;
-      
+		margin-left: 5px; 
 	}
+	.h6{
+	font-size: .7em;
+}
 }
 /*fin-columnistas-yeiny*/
 /*suscribete-yeiny*/
@@ -53,6 +53,7 @@
    padding: 5%;
    position: relative;
    margin-top: 5%;
+   margin-bottom: 2%;
 }
 
 .form{
@@ -71,12 +72,16 @@
 	top: 5%;
 	left: 40%;
 }
-/*fin-suscribete-yeiny*/
-	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
+@media (min-width: 650px){
+	.email{
+	position: absolute;
+	top: 12%;
+	left: 44%;
+    }
+}
 
-}.fondo1 p{
+/*fin-suscribete-yeiny*/
+.fondo1 p{
 	background-color: black;
 	text-align: center;
 	color: white;
@@ -102,7 +107,6 @@ nav li:first-child{
 nav a{
 	color:gray; 
 }
-
 
 /*noticias destacadas2 -aleh*/
 .cajanoticias2{
@@ -132,8 +136,6 @@ margin-bottom: 20px;
 
 .textonoticia2 h4 a {
 	color: white;
-
-
 }
 .cajanoticias2 .textonoticia2 a:hover{
 	text-decoration: underline;
@@ -217,7 +219,6 @@ footer .f-tablet {
 	font-family: sans-serif;
 	text-align: center;
 }
-
  /* css footer-fin */
 
 

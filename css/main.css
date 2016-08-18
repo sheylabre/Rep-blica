@@ -4,15 +4,50 @@
 	padding: 0px;
 }
 /*Noticias Principales*/
- a {
+ h1 a {
 	color: black;
 }
 
+a {
+	color: white;
+}
+
+a .car{
+	color:red;
+}
+ h1 a:hover{
+ 	color:black;
+ }
+
 .noticias1{
+	position: absolute;
+}
+
+.texto-grande{
+	text-shadow: 0.1em 0.1em 0.05em black;
+	position: relative;
+	margin: right;
+	padding: 350px 0px 0px 20px;
+}
+
+.texto-grande a:hover{
+	color: white;
+}
+
+.noticias1-1{
+	background-image: url(../image/img_grid_secundario.jpg);
+	width: 100%;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
 	position: relative;
 }
-.texto-grande{
-	position: absolute;
+
+.texto1{
+	text-shadow: 0.1em 0.1em 0.05em black;
+	position: relative;
+	margin: right;
+	padding: 0px 50px 0px 0px;
 }
 
 /*Noticias Destacadas 2*/

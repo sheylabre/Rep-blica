@@ -3,15 +3,29 @@
 	margin: 0px;
 	padding: 0px;
 }
-.cajantc{
+/*Noticias Principales*/
+ a {
+	color: black;
+}
 
+.noticias1{
+	position: relative;
+}
+.texto-grande{
+	position: absolute;
+}
+
+/*Noticias Destacadas 2*/
+.cajantc{
 border:1px solid black;
 width:100%;
 text-align: center;
 }
+
 .cajantc h4{
 	color:red;
 }
+
 .imgnoticias2{
 	background-image: url("../image/img_especiales.jpg");
 	width: 100%;
@@ -20,11 +34,11 @@ text-align: center;
 	background-size: cover;
 	position: relative;
 }
+
 .textntc2 h3{
 	color: white;
 	text-align: left;
 	margin-top: 20px;
 	float: bottom;
-	
-
 }
+

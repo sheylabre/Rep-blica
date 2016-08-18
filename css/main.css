@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*columnistas-yeiny*/
+.columnista{
+	margin-top: 5%;
+	background: rgb(242,242,242);
+	border-top: 6px solid rgb(170,24,1);
+}
+.colm-1{
+	width: 70%;
+	background: rgb(170,24,1);
+	color: white;
+	margin-top: -8%;
+	margin-left: 15%;
+}
+.bold{
+	font-weight: bold;
+    position: relative;
+    top:-6px;
+}
+.h6{
+	font-size: .8em;
+}
+
+@media (min-width: 450px){
+	.thumbnail{
+		margin-left: 25%;
+	}
+}
+@media (min-width: 768px){
+	.colm-1{
+		margin-top: -3%;
+		margin-left: 35%;
+	    width: 30%;
+	}
+	.thumbnail{
+		margin-left: 11%;
+	}
+	.columnista .col-lg-3{
+		margin-right: -20px;
+		margin-left: 5px;
+      
+	}
+}
+/*fin-columnistas-yeiny*/
+/*suscribete-yeiny*/
+.fondo-img{
+   background-image: url(../image/fondo-email.jpg);
+   background-position: center;
+   padding: 5%;
+   position: relative;
+   margin-top: 5%;
+}
+
+.form{
+	background: rgb(255,255,255);
+	padding-top: 20%;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-radius: 3%;
+	margin-top: 6%;
+}
+.btn-danger{
+	margin: 5%;
+}
+.email{
+	position: absolute;
+	top: 5%;
+	left: 40%;
+}
+/*fin-suscribete-yeiny*/

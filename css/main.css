@@ -3,7 +3,12 @@
 	box-sizing: border-box;
 	margin: 0px;
 	padding: 0px;
-}.fondo1 p{
+}
+/*HEADER Teresa: Temas del día*/
+.fondo1-fondo2{
+	margin: 0%;
+}
+.fondo1 p{
 	background-color: black;
 	text-align: center;
 	color: white;
@@ -29,6 +34,12 @@ nav li:first-child{
 nav a{
 	color:gray; 
 }
+.bannerheader img {
+	width: 101.5%;
+}
+
+/*HEADER Teresa: Temas del día*/
+
 .cajantc{
 
 border:1px solid black;
@@ -53,3 +64,52 @@ text-align: center;
 	float: bottom;
 	
 }
+
+/*columnistas*/
+.columnista{
+	margin-top: 5%;
+	background: rgb(220,220,220);
+	border-top: 6px solid rgb(128,0,0);
+}
+.colm-1{
+	width: 70%;
+	background: rgb(128,0,0);
+	color: white;
+	margin-top: -10%;
+	margin-left: 15%;
+}
+.bold{
+	font-weight: bold;
+    position: relative;
+    top:-6px;
+}
+@media (min-width: 480px){
+	.thumbnail{
+		margin-left: 25%;
+	}
+}
+@media (min-width: 768px){
+	.colm-1{
+		margin-top: -3%;
+		margin-left: 35%;
+	    width: 30%;
+	}
+	.thumbnail{
+		margin-left: 11%;
+	}
+}
+/* TERESA: Fotos destacadas; */
+section .fotosdestacadas {
+	border-top: 3px solid #6E6E6E;
+	border-bottom: 1px solid #6E6E6E;
+}
+section .fotosdestacadas h4{
+	background-color: #6E6E6E;	
+	color:white;
+	font-size: 80%;
+	text-align: center;
+	width: 35%;
+
+
+}
+section 

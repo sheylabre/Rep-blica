@@ -1,0 +1,181 @@
+*{
+  box-sizing: 
+  margin:0px;
+    padding: 0px;
+}
+
+.subicono{
+  display: inline;
+}
+.columnistas{
+    border: 1px solid #E0E6F8;
+ }
+.columnistas{
+    border: 1px solid #E0E6F8;
+  padding: 10% 5% 5% 5%;
+  text-align: center;
+  margin: 6% 3%;
+}
+.columnistas .celeste{
+  background: #E0E6F8;
+ }
+ .celeste {
+  padding: 5% 6%;
+  margin: 10% 0% 2%;
+ }
+ .minh-40 {
+  min-height: 40px;
+ }
+ .celeste .subcuadro{
+  float: right;
+  margin-right: 30%;
+ }
+ .celeste .subcuadro1{
+  float: right;
+  margin-right: 2%;
+ }
+ .celeste .subcuadro p{
+  margin: 0%;
+ }
+ .celeste img{
+  border: 1px solid white;
+ }
+/*columnistas segunda parte*/
+#todos h4 {
+  color: #a09d9d; 
+}
+
+#todos .arrow {
+  padding: 3%; 
+}
+
+#todos .bg-red {
+  background-color: #B81901;
+ }
+
+#todos li {
+  display: inline-block;
+  padding: 3%; 
+}
+
+#todos li:hover {
+    background-color: #D90000;
+    border-radius: 50px;
+    padding: 1% 3%; 
+  }
+
+#todos a {
+  color: white;
+  text-decoration: none; 
+}
+
+#todos .active {
+  background-color: #811101;
+  border-radius: 50px;
+  padding: 1% 3%;
+  color: white; 
+}
+#todos .bg-gray {
+  background-color: #E2E6E9;
+  width: 24%;
+  height: 100px;
+  padding: 2%;
+  margin-right: 8px;
+ }
+  
+#todos .bg-gray:hover {
+    background-color: white;
+    border: 1px solid #E2E6E9; 
+  }
+
+#todos .float {
+  float: right;
+  padding: 0; 
+}
+
+#todos .colum {
+  border: 3px solid white; 
+}
+
+#todos .colum:hover {
+    border: 3px solid #E2E6E9; 
+}
+
+#todos .top {
+  margin-top: 1%; 
+}
+
+#todos p {
+  font-weight: bolder;
+  font-size: 12px; 
+}
+
+#todos .txt-gray {
+  color: #949799;
+  font-size: 15px; 
+}
+
+@media(min-width: 320px){
+  .todos
+}
+
+ /* css footer */
+footer {
+  background-color: #F1F1F1;
+  color: #000;
+}
+
+.logo {
+  margin-top: 12%;
+}
+
+.logo h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.text-f {
+  font-size: 0.9em;
+}
+
+.linea-v {
+  border-left: solid 1px #E1E1E8;
+  height: 540px;
+  margin-left: 369px;
+  margin-top: 30px;
+}
+
+.a-color {
+  margin-right: 20px;
+}
+
+.a-color a {
+  color: #333333;
+  display: block;
+}
+
+.a-color a:hover {
+  color: #333333;
+}
+
+.linea-h {
+  border-top: solid 1px #E1E1E8;
+  margin-top: 2.5%;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.linea-h a {
+  color: #767676;
+  font-size: 0.9em;
+}
+
+footer .f-tablet {
+  background-color: #2A2730;
+  color: #FFF;
+  padding: 20px;
+  margin:0;
+  font-family: sans-serif;
+  text-align: center;
+}
+ /* css footer-fin */

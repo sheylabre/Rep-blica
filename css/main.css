@@ -1,5 +1,4 @@
 *{
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -43,8 +42,8 @@
 		margin-left: 5px; 
 	}
 	.h6{
-		font-size: .7em;
-	}
+	font-size: .7em;
+}
 }
 /*fin-columnistas-yeiny*/
 /*suscribete-yeiny*/
@@ -82,6 +81,75 @@
 }
 
 /*fin-suscribete-yeiny*/
+/*inicio aweita, libero aleh*/
+.cajaAweita{
+	border: 1px solid black;
+	width: 100%;
+	padding: 5px 20px 0px;
+	text-align: center;
+	color:black;
+	margin-bottom: 20px;
+}
+.logoaweita{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.media-left img{
+	border: 4px solid grey;
+}
+.media-heading a{
+	color:black;	
+
+}
+.media-body h5 {
+	text-align: left;
+	margin-top: 5px;
+}
+.media-heading  a:hover{
+	color:black;
+	text-decoration:underline;
+}
+.rectangulo{
+	width: 50%;
+	height: 5px;
+	background-color: purple;
+	margin-left: 80px;
+}
+.masaweita{
+	margin-top: 35px;
+	margin-bottom: 15px;
+
+}
+.maslibero{
+	margin-top: 35px;
+	margin-bottom: 15px; 
+}
+.rectangulolibero{
+	width: 50%;
+	height: 5px;
+	background-color: red ;
+	margin-left: 80px;
+}
+.rectangulopopular{
+	width: 50%;
+	height: 5px;
+	background-color: yellow ;
+	margin-left: 80px;
+}
+.maslibero a{
+	color:red;
+}
+.masaweita a{
+	color:black;
+}
+.maspopular a{
+	color:red;
+}
+.maspopular{
+	margin-top: 35px;
+	margin-bottom: 15px;	
+}
+/*fin aweita aleh*/
 .fondo1 p{
 	background-color: black;
 	text-align: center;
@@ -108,12 +176,10 @@ nav li:first-child{
 nav a{
 	color:gray; 
 }
-<<<<<<< HEAD
-.bannerheader img {
-	width: 101.5%;
-}
+
 /*noticias destacadas2 -aleh*/
 .cajanoticias2{
+
 border:1px solid black;
 text-align: center;
 position: relative;
@@ -122,6 +188,7 @@ margin-bottom: 20px;
 .cajanoticias2 h4{
 	color: #DF013A;
 }
+
 .imgnoticia2{
 	width: 100%;
 	height:  210px;
@@ -133,58 +200,6 @@ margin-bottom: 20px;
 	margin-top: 150px;
 	position: absolute;
 	text-align: left;
-	margin-top: 20px;
-	float: bottom;
-	
-}
-
-/*columnistas*/
-.columnista{
-	margin-top: 5%;
-	background: rgb(220,220,220);
-	border-top: 6px solid rgb(128,0,0);
-}
-.colm-1{
-	width: 70%;
-	background: rgb(128,0,0);
-	color: white;
-	margin-top: -10%;
-	margin-left: 15%;
-}
-.bold{
-	font-weight: bold;
-    position: relative;
-    top:-6px;
-}
-@media (min-width: 480px){
-	.thumbnail{
-		margin-left: 25%;
-	}
-}
-@media (min-width: 768px){
-	.colm-1{
-		margin-top: -3%;
-		margin-left: 35%;
-	    width: 30%;
-	}
-	.thumbnail{
-		margin-left: 11%;
-	}
-}
-/* TERESA: Fotos destacadas; */
-section .fotosdestacadas {
-	border-top: 3px solid #6E6E6E;
-	border-bottom: 1px solid #6E6E6E;
-}
-section .fotosdestacadas h4{
-	background-color: #6E6E6E;	
-	color:white;
-	font-size: 80%;
-	text-align: center;
-	width: 35%;
-
-}
-section {
 	margin-left: 5px;
 	text-shadow: 0.1em 0.1em 0.5em black;
 }
@@ -220,29 +235,36 @@ footer {
 	background-color: #F1F1F1;
 	color: #000;
 }
+
 .logo {
 	margin-top: 12%;
 }
+
 .logo h3 {
 	font-size: 1.5em;
 	font-weight: bold;
 }
+
 .text-f {
 	font-size: 0.9em;
 }
+
 .linea-v {
 	border-left: solid 1px #E1E1E8;
 	height: 540px;
 	margin-left: 369px;
 	margin-top: 30px;
 }
+
 .a-color {
 	margin-right: 20px;
 }
+
 .a-color a {
 	color: #333333;
 	display: block;
 }
+
 .a-color a:hover {
 	color: #333333;
 }
@@ -253,10 +275,12 @@ footer {
 	padding-top: 10px;
 	text-align: center;
 }
+
 .linea-h a {
 	color: #767676;
 	font-size: 0.9em;
 }
+
 footer .f-tablet {
 	background-color: #2A2730;
 	color: #FFF;
@@ -266,3 +290,5 @@ footer .f-tablet {
 	text-align: center;
 }
  /* css footer-fin */
+
+

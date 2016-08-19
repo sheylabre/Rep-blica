@@ -3,12 +3,34 @@
 	margin:0px;
 	padding: 0px;
 }
+h1{
+	font-family: Osmald ; 
+}
+.subicono{
+	display: inline;
+}
+
 .columnistas{
 	border: 1px solid #E0E6F8;
-	padding: 5%;
+	padding: 10% 5% 5% 5%;
+	text-align: center;
+	margin: 6% 3%;
 }
 .columnistas .celeste{
-	background: #E0E6F8
-	
-
+	background: #E0E6F8;
+}
+.celeste {
+	padding: 5% 6%;
+	margin: 10% 0% 2%;
+}
+.celeste .subcuadro{
+	float: right;
+	margin-right: 30%;
+}
+.celeste .subcuadro p{
+	margin: 0%;
+}
+.celeste img{
+	border: 1px solid white;
+}
 

@@ -1,3 +1,45 @@
+*{
+  box-sizing: 
+  margin:0px;
+    padding: 0px;
+}
+
+.subicono{
+  display: inline;
+}
+.columnistas{
+    border: 1px solid #E0E6F8;
+ }
+.columnistas{
+    border: 1px solid #E0E6F8;
+  padding: 10% 5% 5% 5%;
+  text-align: center;
+  margin: 6% 3%;
+}
+.columnistas .celeste{
+  background: #E0E6F8;
+ }
+ .celeste {
+  padding: 5% 6%;
+  margin: 10% 0% 2%;
+ }
+ .minh-40 {
+  min-height: 40px;
+ }
+ .celeste .subcuadro{
+  float: right;
+  margin-right: 30%;
+ }
+ .celeste .subcuadro1{
+  float: right;
+  margin-right: 2%;
+ }
+ .celeste .subcuadro p{
+  margin: 0%;
+ }
+ .celeste img{
+  border: 1px solid white;
+ }
 /*columnistas segunda parte*/
 #todos h4 {
   color: #a09d9d; 
@@ -26,8 +68,6 @@
   color: white;
   text-decoration: none; 
 }
-
-
 
 #todos .active {
   background-color: #811101;

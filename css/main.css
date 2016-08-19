@@ -60,6 +60,10 @@ ul>li>a{
     background-color: #eee;
 }
 
+span .mg-but{
+    margin-top:1%;
+}
+
 .imglogo{
     margin:18% 0% 10% 0%;
     width: 78%;

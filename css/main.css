@@ -81,6 +81,75 @@
 }
 
 /*fin-suscribete-yeiny*/
+/*inicio aweita, libero aleh*/
+.cajaAweita{
+	border: 1px solid black;
+	width: 100%;
+	padding: 5px 20px 0px;
+	text-align: center;
+	color:black;
+	margin-bottom: 20px;
+}
+.logoaweita{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.media-left img{
+	border: 4px solid grey;
+}
+.media-heading a{
+	color:black;	
+
+}
+.media-body h5 {
+	text-align: left;
+	margin-top: 5px;
+}
+.media-heading  a:hover{
+	color:black;
+	text-decoration:underline;
+}
+.rectangulo{
+	width: 50%;
+	height: 5px;
+	background-color: purple;
+	margin-left: 80px;
+}
+.masaweita{
+	margin-top: 35px;
+	margin-bottom: 15px;
+
+}
+.maslibero{
+	margin-top: 35px;
+	margin-bottom: 15px; 
+}
+.rectangulolibero{
+	width: 50%;
+	height: 5px;
+	background-color: red ;
+	margin-left: 80px;
+}
+.rectangulopopular{
+	width: 50%;
+	height: 5px;
+	background-color: yellow ;
+	margin-left: 80px;
+}
+.maslibero a{
+	color:red;
+}
+.masaweita a{
+	color:black;
+}
+.maspopular a{
+	color:red;
+}
+.maspopular{
+	margin-top: 35px;
+	margin-bottom: 15px;	
+}
+/*fin aweita aleh*/
 .fondo1 p{
 	background-color: black;
 	text-align: center;
@@ -119,6 +188,7 @@ margin-bottom: 20px;
 .cajanoticias2 h4{
 	color: #DF013A;
 }
+
 .imgnoticia2{
 	width: 100%;
 	height:  210px;

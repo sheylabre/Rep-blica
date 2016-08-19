@@ -1,8 +1,156 @@
 *{
-	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
-}.fondo1 p{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*columnistas-yeiny*/
+.columnista{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background: rgb(242,242,242);
+	border-top: 6px solid rgb(170,24,1);
+}
+.colm-1{
+	width: 70%;
+	background: rgb(170,24,1);
+	color: white;
+	margin-top: -8%;
+	margin-left: 15%;
+}
+.bold{
+	font-weight: bold;
+    position: relative;
+    top:-6px;
+}
+
+@media (min-width: 450px){
+	.thumbnail{
+		margin-left: 25%;
+	}
+}
+@media (min-width: 768px){
+	.colm-1{
+		margin-top: -3%;
+		margin-left: 35%;
+	    width: 30%;
+	}
+	.thumbnail{
+		margin-left: 11%;
+	}
+	.columnista .col-lg-3{
+		margin-right: -20px;
+		margin-left: 5px; 
+	}
+	.h6{
+	font-size: .7em;
+}
+}
+/*fin-columnistas-yeiny*/
+/*suscribete-yeiny*/
+.fondo-img{
+   background-image: url(../image/fondo-email.jpg);
+   background-position: center;
+   padding: 5%;
+   position: relative;
+   margin-top: 5%;
+   margin-bottom: 2%;
+}
+
+.form{
+	background: rgb(255,255,255);
+	padding-top: 20%;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-radius: 3%;
+	margin-top: 6%;
+}
+.btn-danger{
+	margin: 5%;
+}
+.email{
+	position: absolute;
+	top: 5%;
+	left: 38%;
+}
+@media (min-width: 650px){
+	.email{
+	position: absolute;
+	top: 12%;
+	left: 44%;
+    }
+}
+
+/*fin-suscribete-yeiny*/
+/*inicio aweita, libero aleh*/
+.cajaAweita{
+	border: 1px solid black;
+	width: 100%;
+	padding: 5px 20px 0px;
+	text-align: center;
+	color:black;
+	margin-bottom: 20px;
+}
+.logoaweita{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.media-left img{
+	border: 4px solid grey;
+}
+.media-heading a{
+	color:black;	
+
+}
+.media-body h5 {
+	text-align: left;
+	margin-top: 5px;
+}
+.media-heading  a:hover{
+	color:black;
+	text-decoration:underline;
+}
+.rectangulo{
+	width: 50%;
+	height: 5px;
+	background-color: purple;
+	margin-left: 80px;
+}
+.masaweita{
+	margin-top: 35px;
+	margin-bottom: 15px;
+
+}
+.maslibero{
+	margin-top: 35px;
+	margin-bottom: 15px; 
+}
+.rectangulolibero{
+	width: 50%;
+	height: 5px;
+	background-color: red ;
+	margin-left: 80px;
+}
+.rectangulopopular{
+	width: 50%;
+	height: 5px;
+	background-color: yellow ;
+	margin-left: 80px;
+}
+.maslibero a{
+	color:red;
+}
+.masaweita a{
+	color:black;
+}
+.maspopular a{
+	color:red;
+}
+.maspopular{
+	margin-top: 35px;
+	margin-bottom: 15px;	
+}
+/*fin aweita aleh*/
+.fondo1 p{
 	background-color: black;
 	text-align: center;
 	color: white;
@@ -29,29 +177,58 @@ nav a{
 	color:gray; 
 }
 
-.cajantc{
+/*noticias destacadas2 -aleh*/
+.cajanoticias2{
 
 border:1px solid black;
-width:100%;
 text-align: center;
+position: relative;
+margin-bottom: 20px;
 }
-.cajantc h4{
-	color:red;
+.cajanoticias2 h4{
+	color: #DF013A;
 }
-.imgnoticias2{
-	background-image: url("../image/img_especiales.jpg");
+
+.imgnoticia2{
 	width: 100%;
 	height:  210px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 }
-.textntc2 h3{
-	color: white;
+.textonoticia2{
+	margin-top: 150px;
+	position: absolute;
 	text-align: left;
-	margin-top: 20px;
-	float: bottom;
+	margin-left: 5px;
+	text-shadow: 0.1em 0.1em 0.5em black;
 }
+
+.textonoticia2 h4 a {
+	color: white;
+}
+.cajanoticias2 .textonoticia2 a:hover{
+	text-decoration: underline;
+
+}
+.cajanoticias2 p a:hover{
+	text-decoration: underline;
+	color: black;
+
+}
+.opacidad{
+	background-color: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 210px;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+}
+.cajanoticias2 p{
+	color: black;
+	margin-top: 10px;
+}
+/*fin-noticias destacadas2 -aleh*/
 
  /* css footer */
 footer {
@@ -112,5 +289,108 @@ footer .f-tablet {
 	font-family: sans-serif;
 	text-align: center;
 }
-
  /* css footer-fin */
+
+ /* css últimas-noticias */
+
+.ultimas-noticias h3 {
+	font-size: 2em;
+    font-family: sans-serif;
+    margin-bottom: 7%;
+    margin-left: 2%;
+    color: #999999;
+}
+
+.c-gris {
+	color: #999999;
+	font-size: 0.9em;
+	margin-top: 30px;
+	margin-left: 2%;
+}
+
+.ultimas-noticias h4  {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	font-size: 1.7em;
+    font-weight: bold;
+}
+
+.emma {
+	width: 100%;
+}
+
+.text-un {
+	margin-top: 2%;
+    font-size: 1em;
+    color: #000;
+}
+
+.c-f {
+	color: #2E3192;
+}
+
+.c-t {
+	color: #00A8FF;
+}
+
+.c-g {
+	color: #FE0000;
+}
+
+.c-y {
+	color: #FE0000;
+}
+
+.bicolor {
+	padding: 6px;
+    background-color: #E9E9E9;
+    border-radius: 6px;
+    margin-left: 3px;
+}
+
+.face {
+  border-bottom: solid 4px #2E3192;
+}
+
+.face:hover {
+	background-color: rgba(104, 255, 213, 0.6);
+}
+
+.twi {
+	border-bottom: solid 4px #00A8FF;
+}
+
+.twi:hover {
+	background-color: rgba(104, 255, 213, 0.6);
+}
+
+.goo {
+	border-bottom: solid 4px #FE0000;
+}
+
+.goo:hover {
+	background-color: rgba(104, 255, 213, 0.6);
+}
+
+.punto-un {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.white-a {
+	color: #999999;
+	font-size: 0.8em;
+}
+
+.white-a:hover {
+	color: #4D4D4D;
+}
+
+.linea-un {
+	border-bottom:solid 1px #999999;
+	margin-top: 2%;
+	padding-bottom: 5%;
+}
+
+/* css últimas noticias-fin */
